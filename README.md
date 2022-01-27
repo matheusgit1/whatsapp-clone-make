@@ -19,6 +19,21 @@ no diretorio do projeto, execute:
 
 `yarn start` ou `npm start`
 
+em `src/firebase.ts` insitra suas crendencias do firebase:
+
+
+`
+const firebaseConfig = {
+  apiKey: apiKey,
+  authDomain: authDomain,
+  projectId: projectId,
+  storageBucket: storageBucket,
+  messagingSenderId: messagingSenderId,
+  appId: appId,
+  measurementId: measurementId
+};
+`
+
 
 ## Preview
 
