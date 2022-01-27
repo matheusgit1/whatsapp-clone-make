@@ -1,0 +1,1 @@
+export const concil = "silence is gold";

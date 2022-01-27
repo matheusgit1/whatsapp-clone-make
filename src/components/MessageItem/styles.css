@@ -1,0 +1,39 @@
+.message-line{
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.message-item-message{
+  background-color:#fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px #ccf;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  max-width: 90%;
+
+}
+
+.message-item-my-message{
+  border-radius: 10px;
+  box-shadow: 0 1px 1px #ccf;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  max-width: 90%;
+  background-color: #00ff95;
+}
+
+.message-text{
+  font-size:14px;
+  margin: 5px 40px 5px 5px;
+}
+
+.message-date{
+  font-size: 11px;
+  color: #111;
+  margin-right: 5px;
+  text-align: right;
+  height: 15px;
+  margin-top: -15px;
+}

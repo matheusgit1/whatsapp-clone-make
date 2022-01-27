@@ -1,0 +1,64 @@
+.login{
+  display: flex;
+  flex: 1;
+  justify-content:center;
+  align-items: center;
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  height: 100vh;
+}
+.login-card{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  max-width: 415px;
+  height: 230px;
+  max-height: 415px;
+  background-color: #fff;
+  border-radius: 40px;
+  align-items: center;
+}
+
+
+input {
+  color: #919191;
+  flex: 1;
+  line-height: 25px;
+  border-radius: 10px;
+  border: 0.2px solid #919191;
+  margin-top: 20px;
+  width: 375px;
+  padding: 0px 15px
+}
+
+button{
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgb(37, 248, 160);
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+  border: none;
+}
+
+input:hover{
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.logo-login{
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-login-card{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}

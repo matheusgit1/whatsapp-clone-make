@@ -1,0 +1,117 @@
+.chat-window{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-window-header{
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-window-header-info{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chat-window-header-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.chat-window-header-name{
+  font-size: 17px;
+  color: #111;
+  font-weight: normal;
+}
+
+.chat-window-header-buttons{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.chat-window-btn{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chat-window-body{
+  flex: 1;
+  overflow-y: auto;
+  background-color: #e5ddd5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  padding: 20px 30px;
+}
+
+.chat-window-footer{
+  height: 62px;
+  display: flex;
+  align-items: center;
+
+}
+
+.chat-window-input{
+  width: 100%;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4a4a4a;
+  padding-left: 15px;
+  background-color: #fff;
+}
+
+.chat-window-pre{
+  display: flex;
+}
+
+.chat-window-footer-input{
+  flex: 1;
+}
+
+.chat-window-pos{
+  display: flex;
+}
+
+.chat-window-emoji{
+  height: 100px;
+  overflow-y: hidden;
+  transition: all ease 0.5s;
+}
+
+.emoji-picker-react aside {
+  width: auto;
+}
+
+.emoji-picker-react .emoji-picker-group:before{
+  background: none;
+}
+
+.chat-window::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+
+.chat-window-body::-webkit-scrollbar-thumb{
+  background-color: rgba(82, 185, 82, 0.233)
+}
+
+input{
+  margin-top: -4px;
+}
