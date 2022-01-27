@@ -22,9 +22,9 @@ no diretorio do projeto, execute:
 
 ## Preview
 
-![img 1]('https://github.com/matheusgit1/whatsapp-clone-make/blob/main/preview/3.PNG')
-![img 2]('https://github.com/matheusgit1/whatsapp-clone-make/blob/main/preview/4.PNG')
-![img 3]('https://github.com/matheusgit1/whatsapp-clone-make/blob/main/preview/5.PNG')
+![img 1](https://github.com/matheusgit1/whatsapp-clone-make/blob/main/preview/3.PNG)
+![img 2](https://github.com/matheusgit1/whatsapp-clone-make/blob/main/preview/4.PNG)
+![img 3](https://github.com/matheusgit1/whatsapp-clone-make/blob/main/preview/5.PNG)
 
 ## Este projeto é de uso livre
 
